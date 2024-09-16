@@ -18,7 +18,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<sonar.organization>devsecops_ceps</sonar.organization>
+		<sonar.organization>ceps-repo</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
