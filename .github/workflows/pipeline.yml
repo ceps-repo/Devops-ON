@@ -49,6 +49,11 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
+
+    - name: Run Snyk to check for vulnerabilities
+      uses: snyk/actions/node@master
+      env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       
     - run: mvn test  
     - name: Generate JaCoCo Badge
