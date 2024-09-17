@@ -96,7 +96,7 @@
 			      </executions>				
 			</plugin>
 
-			<!-- Example Plugin Configuration -->
+			<!-- Example Plugin Configuration 
 			
 			    <plugin>
 			      <groupId>io.snyk</groupId>
@@ -124,6 +124,8 @@
 				</args>
 			      </configuration>
 			    </plugin>
+
+			-->
 			
 		</plugins>
 	</build>
